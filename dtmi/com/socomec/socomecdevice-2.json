@@ -1,0 +1,2238 @@
+{
+  "@id": "dtmi:com:socomec:socomecdevice;3",
+  "@type": "Interface",
+  "@context": [
+    "dtmi:iotcentral:context;2",
+    "dtmi:dtdl:context;2",
+    "dtmi:dtdl:extension:quantitativeTypes;1"
+  ],
+  "displayName": {
+    "en": "socomecdevice"
+  },
+  "contents": [
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:AnalogAlarm_0_5019;2",
+      "@type": [
+        "Telemetry",
+        "State"
+      ],
+      "displayName": {
+        "en": "Analogic alarm 1"
+      },
+      "name": "AnalogAlarm_0_5019",
+      "schema": {
+        "@id": "dtmi:com:socomec:socomecdevice:AnalogAlarm_0_5019:schema;2",
+        "@type": "Enum",
+        "enumValues": [
+          {
+            "@id": "dtmi:com:socomec:socomecdevice:AnalogAlarm_0_5019:schema:ON;2",
+            "displayName": {
+              "en": "ON"
+            },
+            "enumValue": 1,
+            "name": "ON"
+          },
+          {
+            "@id": "dtmi:com:socomec:socomecdevice:AnalogAlarm_0_5019:schema:OFF;2",
+            "displayName": {
+              "en": "OFF"
+            },
+            "enumValue": 0,
+            "name": "OFF"
+          }
+        ],
+        "valueSchema": "integer"
+      }
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:AnalogAlarm_1_5019;2",
+      "@type": [
+        "Telemetry",
+        "State"
+      ],
+      "displayName": {
+        "en": "Analogic alarm 2"
+      },
+      "name": "AnalogAlarm_1_5019",
+      "schema": {
+        "@id": "dtmi:com:socomec:socomecdevice:AnalogAlarm_1_5019:schema;2",
+        "@type": "Enum",
+        "enumValues": [
+          {
+            "@id": "dtmi:com:socomec:socomecdevice:AnalogAlarm_1_5019:schema:ON;2",
+            "displayName": {
+              "en": "ON"
+            },
+            "enumValue": 1,
+            "name": "ON"
+          },
+          {
+            "@id": "dtmi:com:socomec:socomecdevice:AnalogAlarm_1_5019:schema:OFF;2",
+            "displayName": {
+              "en": "OFF"
+            },
+            "enumValue": 0,
+            "name": "OFF"
+          }
+        ],
+        "valueSchema": "integer"
+      }
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:AnalogAlarm_2_5019;2",
+      "@type": [
+        "Telemetry",
+        "State"
+      ],
+      "displayName": {
+        "en": "Analogic alarm 3"
+      },
+      "name": "AnalogAlarm_2_5019",
+      "schema": {
+        "@id": "dtmi:com:socomec:socomecdevice:AnalogAlarm_2_5019:schema;2",
+        "@type": "Enum",
+        "enumValues": [
+          {
+            "@id": "dtmi:com:socomec:socomecdevice:AnalogAlarm_2_5019:schema:ON;2",
+            "displayName": {
+              "en": "ON"
+            },
+            "enumValue": 1,
+            "name": "ON"
+          },
+          {
+            "@id": "dtmi:com:socomec:socomecdevice:AnalogAlarm_2_5019:schema:OFF;2",
+            "displayName": {
+              "en": "OFF"
+            },
+            "enumValue": 0,
+            "name": "OFF"
+          }
+        ],
+        "valueSchema": "integer"
+      }
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:AnalogAlarm_3_5019;2",
+      "@type": [
+        "Telemetry",
+        "State"
+      ],
+      "displayName": {
+        "en": "Analogic alarm 4"
+      },
+      "name": "AnalogAlarm_3_5019",
+      "schema": {
+        "@id": "dtmi:com:socomec:socomecdevice:AnalogAlarm_3_5019:schema;2",
+        "@type": "Enum",
+        "enumValues": [
+          {
+            "@id": "dtmi:com:socomec:socomecdevice:AnalogAlarm_3_5019:schema:ON;2",
+            "displayName": {
+              "en": "ON"
+            },
+            "enumValue": 1,
+            "name": "ON"
+          },
+          {
+            "@id": "dtmi:com:socomec:socomecdevice:AnalogAlarm_3_5019:schema:OFF;2",
+            "displayName": {
+              "en": "OFF"
+            },
+            "enumValue": 0,
+            "name": "OFF"
+          }
+        ],
+        "valueSchema": "integer"
+      }
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:LogicalAlarm_0_5020;2",
+      "@type": [
+        "Telemetry",
+        "State"
+      ],
+      "displayName": {
+        "en": "Logical alarm 1"
+      },
+      "name": "LogicalAlarm_0_5020",
+      "schema": {
+        "@id": "dtmi:com:socomec:socomecdevice:LogicalAlarm_0_5020:schema;2",
+        "@type": "Enum",
+        "enumValues": [
+          {
+            "@id": "dtmi:com:socomec:socomecdevice:LogicalAlarm_0_5020:schema:ON;2",
+            "displayName": {
+              "en": "ON"
+            },
+            "enumValue": 1,
+            "name": "ON"
+          },
+          {
+            "@id": "dtmi:com:socomec:socomecdevice:LogicalAlarm_0_5020:schema:OFF;2",
+            "displayName": {
+              "en": "OFF"
+            },
+            "enumValue": 0,
+            "name": "OFF"
+          }
+        ],
+        "valueSchema": "integer"
+      }
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:LogicalAlarm_1_5020;2",
+      "@type": [
+        "Telemetry",
+        "State"
+      ],
+      "displayName": {
+        "en": "Logical alarm 2"
+      },
+      "name": "LogicalAlarm_1_5020",
+      "schema": {
+        "@id": "dtmi:com:socomec:socomecdevice:LogicalAlarm_1_5020:schema;2",
+        "@type": "Enum",
+        "enumValues": [
+          {
+            "@id": "dtmi:com:socomec:socomecdevice:LogicalAlarm_1_5020:schema:ON;2",
+            "displayName": {
+              "en": "ON"
+            },
+            "enumValue": 1,
+            "name": "ON"
+          },
+          {
+            "@id": "dtmi:com:socomec:socomecdevice:LogicalAlarm_1_5020:schema:OFF;2",
+            "displayName": {
+              "en": "OFF"
+            },
+            "enumValue": 0,
+            "name": "OFF"
+          }
+        ],
+        "valueSchema": "integer"
+      }
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:LogicalAlarm_2_5020;2",
+      "@type": [
+        "Telemetry",
+        "State"
+      ],
+      "displayName": {
+        "en": "Logical alarm 3"
+      },
+      "name": "LogicalAlarm_2_5020",
+      "schema": {
+        "@id": "dtmi:com:socomec:socomecdevice:LogicalAlarm_2_5020:schema;2",
+        "@type": "Enum",
+        "enumValues": [
+          {
+            "@id": "dtmi:com:socomec:socomecdevice:LogicalAlarm_2_5020:schema:ON;2",
+            "displayName": {
+              "en": "ON"
+            },
+            "enumValue": 1,
+            "name": "ON"
+          },
+          {
+            "@id": "dtmi:com:socomec:socomecdevice:LogicalAlarm_2_5020:schema:OFF;2",
+            "displayName": {
+              "en": "OFF"
+            },
+            "enumValue": 0,
+            "name": "OFF"
+          }
+        ],
+        "valueSchema": "integer"
+      }
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:LogicalAlarm_3_5020;2",
+      "@type": [
+        "Telemetry",
+        "State"
+      ],
+      "displayName": {
+        "en": "Logical alarm 4"
+      },
+      "name": "LogicalAlarm_3_5020",
+      "schema": {
+        "@id": "dtmi:com:socomec:socomecdevice:LogicalAlarm_3_5020:schema;2",
+        "@type": "Enum",
+        "enumValues": [
+          {
+            "@id": "dtmi:com:socomec:socomecdevice:LogicalAlarm_3_5020:schema:ON;2",
+            "displayName": {
+              "en": "ON"
+            },
+            "enumValue": 1,
+            "name": "ON"
+          },
+          {
+            "@id": "dtmi:com:socomec:socomecdevice:LogicalAlarm_3_5020:schema:OFF;2",
+            "displayName": {
+              "en": "OFF"
+            },
+            "enumValue": 0,
+            "name": "OFF"
+          }
+        ],
+        "valueSchema": "integer"
+      }
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_5204;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Alarm/Fault Code"
+      },
+      "name": "Global_0_5204",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_5206;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Total Cycles counter"
+      },
+      "name": "Global_0_5206",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_5207;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Total Position 0 switches counter"
+      },
+      "name": "Global_0_5207",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_5208;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Total Position 1 switches counter"
+      },
+      "name": "Global_0_5208",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_5209;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Total Position 2 switches counter"
+      },
+      "name": "Global_0_5209",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_5210;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Position 0 switches in auto mode counter"
+      },
+      "name": "Global_0_5210",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_5211;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Position 1 switches in auto mode counter"
+      },
+      "name": "Global_0_5211",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_5212;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Position 2 switches in auto mode counter"
+      },
+      "name": "Global_0_5212",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_5213;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Total switches in auto mode (including control mode) counter"
+      },
+      "name": "Global_0_5213",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_5214;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Start order activation counter"
+      },
+      "name": "Global_0_5214",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_5223;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Priority - Power Supply"
+      },
+      "name": "Global_0_5223",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_5231;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Position 0 switches in manual mode counter"
+      },
+      "name": "Global_0_5231",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_5232;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Position 1 switches in manual mode counter"
+      },
+      "name": "Global_0_5232",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_5233;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Position 2 switches in manual mode counter"
+      },
+      "name": "Global_0_5233",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_5234;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Total switches in manual mode counter"
+      },
+      "name": "Global_0_5234",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_5409;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Position 0 switches in control mode counter"
+      },
+      "name": "Global_0_5409",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_5410;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Position 1 switches in control mode counter"
+      },
+      "name": "Global_0_5410",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_5411;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Position 2 switches in control mode counter"
+      },
+      "name": "Global_0_5411",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_5412;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Total switches in control mode counter"
+      },
+      "name": "Global_0_5412",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_5415;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Total switches counter"
+      },
+      "name": "Global_0_5415",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_5416;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Cycles in auto mode (including control mode) counter"
+      },
+      "name": "Global_0_5416",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_5417;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Cycles in manual mode counter"
+      },
+      "name": "Global_0_5417",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_5418;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Cycles in control mode counter"
+      },
+      "name": "Global_0_5418",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_9000;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "ILoadAvgMeasurementCplx"
+      },
+      "name": "Global_0_9000",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_9001;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "ILoadEnergyMeasurementCplx"
+      },
+      "name": "Global_0_9001",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Load_0_10179;2",
+      "@type": [
+        "Telemetry",
+        "Current"
+      ],
+      "displayName": {
+        "en": "IDCIrmsAvg"
+      },
+      "name": "Load_0_10179",
+      "schema": "double",
+      "unit": "ampere"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Load_1_10179;2",
+      "@type": [
+        "Telemetry",
+        "Current"
+      ],
+      "displayName": {
+        "en": "IDCIrmsAvg"
+      },
+      "name": "Load_1_10179",
+      "schema": "double",
+      "unit": "ampere"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Load_2_10179;2",
+      "@type": [
+        "Telemetry",
+        "Current"
+      ],
+      "displayName": {
+        "en": "IDCIrmsAvg"
+      },
+      "name": "Load_2_10179",
+      "schema": "double",
+      "unit": "ampere"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Load_0_10180;2",
+      "@type": [
+        "Telemetry",
+        "Current"
+      ],
+      "displayName": {
+        "en": "IDCIdcAvg"
+      },
+      "name": "Load_0_10180",
+      "schema": "double",
+      "unit": "ampere"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Load_1_10180;2",
+      "@type": [
+        "Telemetry",
+        "Current"
+      ],
+      "displayName": {
+        "en": "IDCIdcAvg"
+      },
+      "name": "Load_1_10180",
+      "schema": "double",
+      "unit": "ampere"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Load_2_10180;2",
+      "@type": [
+        "Telemetry",
+        "Current"
+      ],
+      "displayName": {
+        "en": "IDCIdcAvg"
+      },
+      "name": "Load_2_10180",
+      "schema": "double",
+      "unit": "ampere"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Load_0_10181;2",
+      "@type": [
+        "Telemetry",
+        "Current"
+      ],
+      "displayName": {
+        "en": "IDCIacAvg"
+      },
+      "name": "Load_0_10181",
+      "schema": "double",
+      "unit": "ampere"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Load_1_10181;2",
+      "@type": [
+        "Telemetry",
+        "Current"
+      ],
+      "displayName": {
+        "en": "IDCIacAvg"
+      },
+      "name": "Load_1_10181",
+      "schema": "double",
+      "unit": "ampere"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Load_2_10181;2",
+      "@type": [
+        "Telemetry",
+        "Current"
+      ],
+      "displayName": {
+        "en": "IDCIacAvg"
+      },
+      "name": "Load_2_10181",
+      "schema": "double",
+      "unit": "ampere"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Load_0_30000;2",
+      "@type": [
+        "Telemetry",
+        "Energy"
+      ],
+      "displayName": {
+        "en": "Ea+ Load 1"
+      },
+      "name": "Load_0_30000",
+      "schema": "double",
+      "unit": "wattHour"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Load_1_30000;2",
+      "@type": [
+        "Telemetry",
+        "Energy"
+      ],
+      "displayName": {
+        "en": "Ea+ Load 2"
+      },
+      "name": "Load_1_30000",
+      "schema": "double",
+      "unit": "wattHour"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Load_2_30000;2",
+      "@type": [
+        "Telemetry",
+        "Energy"
+      ],
+      "displayName": {
+        "en": "Ea+ Load 3"
+      },
+      "name": "Load_2_30000",
+      "schema": "double",
+      "unit": "wattHour"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Load_0_30002;2",
+      "@type": [
+        "Telemetry",
+        "Energy"
+      ],
+      "displayName": {
+        "en": "Ea- Load 1"
+      },
+      "name": "Load_0_30002",
+      "schema": "double",
+      "unit": "wattHour"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Load_1_30002;2",
+      "@type": [
+        "Telemetry",
+        "Energy"
+      ],
+      "displayName": {
+        "en": "Ea- Load 2"
+      },
+      "name": "Load_1_30002",
+      "schema": "double",
+      "unit": "wattHour"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Load_2_30002;2",
+      "@type": [
+        "Telemetry",
+        "Energy"
+      ],
+      "displayName": {
+        "en": "Ea- Load 3"
+      },
+      "name": "Load_2_30002",
+      "schema": "double",
+      "unit": "wattHour"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Load_0_30004;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Total Positive Reactive Energy (no resetable): Er +"
+      },
+      "name": "Load_0_30004",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Load_1_30004;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Total Positive Reactive Energy (no resetable): Er +"
+      },
+      "name": "Load_1_30004",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Load_2_30004;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Total Positive Reactive Energy (no resetable): Er +"
+      },
+      "name": "Load_2_30004",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Load_0_30016;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Total Apparent Energy (no resetable): Es"
+      },
+      "name": "Load_0_30016",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Load_1_30016;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Total Apparent Energy (no resetable): Es"
+      },
+      "name": "Load_1_30016",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Load_2_30016;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Total Apparent Energy (no resetable): Es"
+      },
+      "name": "Load_2_30016",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Load_0_40001;2",
+      "@type": [
+        "Telemetry",
+        "Frequency"
+      ],
+      "displayName": {
+        "en": "F Load 1"
+      },
+      "name": "Load_0_40001",
+      "schema": "double",
+      "unit": "hertz"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Load_1_40001;2",
+      "@type": [
+        "Telemetry",
+        "Frequency"
+      ],
+      "displayName": {
+        "en": "F Load 2"
+      },
+      "name": "Load_1_40001",
+      "schema": "double",
+      "unit": "hertz"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Load_2_40001;2",
+      "@type": [
+        "Telemetry",
+        "Frequency"
+      ],
+      "displayName": {
+        "en": "F Load 3"
+      },
+      "name": "Load_2_40001",
+      "schema": "double",
+      "unit": "hertz"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_40014;2",
+      "@type": [
+        "Telemetry",
+        "Frequency"
+      ],
+      "displayName": {
+        "en": "Frequency"
+      },
+      "name": "Global_0_40014",
+      "schema": "double",
+      "unit": "hertz"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_55001;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Serial number"
+      },
+      "name": "Global_0_55001",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Multi_Fluid_0_65014;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "MFF 1 Total"
+      },
+      "name": "Multi_Fluid_0_65014",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Multi_Fluid_1_65014;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "MFF 2 Total"
+      },
+      "name": "Multi_Fluid_1_65014",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Multi_Fluid_2_65014;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "MFF 3 Total"
+      },
+      "name": "Multi_Fluid_2_65014",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Multi_Fluid_0_65015;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "MFF 1 Partial"
+      },
+      "name": "Multi_Fluid_0_65015",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Multi_Fluid_1_65015;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "MFF 2 Partial"
+      },
+      "name": "Multi_Fluid_1_65015",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Multi_Fluid_2_65015;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "MFF 3 Partial"
+      },
+      "name": "Multi_Fluid_2_65015",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Load_0_80031;2",
+      "@type": [
+        "Telemetry",
+        "Power"
+      ],
+      "displayName": {
+        "en": "P tot Load 1"
+      },
+      "name": "Load_0_80031",
+      "schema": "double",
+      "unit": "watt"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Load_1_80031;2",
+      "@type": [
+        "Telemetry",
+        "Power"
+      ],
+      "displayName": {
+        "en": "P tot Load 2"
+      },
+      "name": "Load_1_80031",
+      "schema": "double",
+      "unit": "watt"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Load_2_80031;2",
+      "@type": [
+        "Telemetry",
+        "Power"
+      ],
+      "displayName": {
+        "en": "P tot Load 3"
+      },
+      "name": "Load_2_80031",
+      "schema": "double",
+      "unit": "watt"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_85006;2",
+      "@type": [
+        "Telemetry",
+        "Voltage"
+      ],
+      "displayName": {
+        "en": "Nominal Voltage"
+      },
+      "name": "Global_0_85006",
+      "schema": "double",
+      "unit": "volt"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_85007;2",
+      "@type": [
+        "Telemetry",
+        "Frequency"
+      ],
+      "displayName": {
+        "en": "Nominal Frequency"
+      },
+      "name": "Global_0_85007",
+      "schema": "double",
+      "unit": "hertz"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_85880;2",
+      "@type": [
+        "Telemetry",
+        "Temperature"
+      ],
+      "displayName": {
+        "en": "Temperature"
+      },
+      "name": "Global_0_85880",
+      "schema": "double",
+      "unit": "degreeCelsius"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_85894;2",
+      "@type": [
+        "Telemetry",
+        "Relativehumidity"
+      ],
+      "displayName": {
+        "en": "Humidity"
+      },
+      "name": "Global_0_85894",
+      "schema": "double",
+      "unit": "percent"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_85895;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "IBleSensorMagCount"
+      },
+      "name": "Global_0_85895",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_85896;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "IBleSensorMagPresent"
+      },
+      "name": "Global_0_85896",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Load_0_110030;2",
+      "@type": [
+        "Telemetry",
+        "Voltage"
+      ],
+      "displayName": {
+        "en": "V1 Load 1"
+      },
+      "name": "Load_0_110030",
+      "schema": "double",
+      "unit": "volt"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Load_1_110030;2",
+      "@type": [
+        "Telemetry",
+        "Voltage"
+      ],
+      "displayName": {
+        "en": "V1 Load 2"
+      },
+      "name": "Load_1_110030",
+      "schema": "double",
+      "unit": "volt"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Load_2_110030;2",
+      "@type": [
+        "Telemetry",
+        "Voltage"
+      ],
+      "displayName": {
+        "en": "V1 Load 3"
+      },
+      "name": "Load_2_110030",
+      "schema": "double",
+      "unit": "volt"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_110228;2",
+      "@type": [
+        "Telemetry",
+        "Voltage"
+      ],
+      "displayName": {
+        "en": "Ph-N Voltage : V1"
+      },
+      "name": "Global_0_110228",
+      "schema": "double",
+      "unit": "volt"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_110229;2",
+      "@type": [
+        "Telemetry",
+        "Voltage"
+      ],
+      "displayName": {
+        "en": "Ph-N Voltage : V2"
+      },
+      "name": "Global_0_110229",
+      "schema": "double",
+      "unit": "volt"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_110230;2",
+      "@type": [
+        "Telemetry",
+        "Voltage"
+      ],
+      "displayName": {
+        "en": "Ph-N Voltage : V3"
+      },
+      "name": "Global_0_110230",
+      "schema": "double",
+      "unit": "volt"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_110233;2",
+      "@type": [
+        "Telemetry",
+        "Voltage"
+      ],
+      "displayName": {
+        "en": "Ph-Ph Voltage : U12"
+      },
+      "name": "Global_0_110233",
+      "schema": "double",
+      "unit": "volt"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_110234;2",
+      "@type": [
+        "Telemetry",
+        "Voltage"
+      ],
+      "displayName": {
+        "en": "Ph-Ph Voltage : U23"
+      },
+      "name": "Global_0_110234",
+      "schema": "double",
+      "unit": "volt"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_110235;2",
+      "@type": [
+        "Telemetry",
+        "Voltage"
+      ],
+      "displayName": {
+        "en": "Ph-Ph Voltage : U31"
+      },
+      "name": "Global_0_110235",
+      "schema": "double",
+      "unit": "volt"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_110343;2",
+      "@type": [
+        "Telemetry",
+        "Voltage"
+      ],
+      "displayName": {
+        "en": "ILoadDCVrmsAvg"
+      },
+      "name": "Global_0_110343",
+      "schema": "double",
+      "unit": "volt"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_110344;2",
+      "@type": [
+        "Telemetry",
+        "Voltage"
+      ],
+      "displayName": {
+        "en": "ILoadDCVdcAvg"
+      },
+      "name": "Global_0_110344",
+      "schema": "double",
+      "unit": "volt"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_110345;2",
+      "@type": [
+        "Telemetry",
+        "Voltage"
+      ],
+      "displayName": {
+        "en": "ILoadDCVacAvg"
+      },
+      "name": "Global_0_110345",
+      "schema": "double",
+      "unit": "volt"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_135000;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Priority"
+      },
+      "name": "Global_0_135000",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_135001;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Alarm/Fault Code"
+      },
+      "name": "Global_0_135001",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_135030;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Type of Application"
+      },
+      "name": "Global_0_135030",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_135038;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Operating Mode"
+      },
+      "name": "Global_0_135038",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_135039;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Switch Position"
+      },
+      "name": "Global_0_135039",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_135041;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Source 1 Start Generator relay State"
+      },
+      "name": "Global_0_135041",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_135042;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Source 2 Start Generator relay State"
+      },
+      "name": "Global_0_135042",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_135044;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Source 1 State"
+      },
+      "name": "Global_0_135044",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_135045;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Source 2 State"
+      },
+      "name": "Global_0_135045",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_135046;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Test in progress"
+      },
+      "name": "Global_0_135046",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_135052;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Alarm/Fault summary"
+      },
+      "name": "Global_0_135052",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_135053;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Last Switch over cause"
+      },
+      "name": "Global_0_135053",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_135124;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Product network type"
+      },
+      "name": "Global_0_135124",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_148015;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "S012: General Alarm"
+      },
+      "name": "Global_0_148015",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_148021;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "S005: Inverter ready"
+      },
+      "name": "Global_0_148021",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_160007;2",
+      "@type": [
+        "Telemetry",
+        "Relativehumidity"
+      ],
+      "displayName": {
+        "en": "Bank SOC"
+      },
+      "name": "Global_0_160007",
+      "schema": "double",
+      "unit": "percent"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_160164;2",
+      "@type": [
+        "Telemetry",
+        "Energy"
+      ],
+      "displayName": {
+        "en": "Nominal energy for 1 string"
+      },
+      "name": "Global_0_160164",
+      "schema": "double",
+      "unit": "wattHour"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_160253;2",
+      "@type": [
+        "Telemetry",
+        "Temperature"
+      ],
+      "displayName": {
+        "en": "External temperature"
+      },
+      "name": "Global_0_160253",
+      "schema": "double",
+      "unit": "degreeCelsius"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_160606;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Application - Generic alarm 11"
+      },
+      "name": "Global_0_160606",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_160914;2",
+      "@type": [
+        "Telemetry",
+        "Power"
+      ],
+      "displayName": {
+        "en": "M016: Grid Active Power (signed)"
+      },
+      "name": "Global_0_160914",
+      "schema": "double",
+      "unit": "watt"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_160916;2",
+      "@type": [
+        "Telemetry",
+        "Power"
+      ],
+      "displayName": {
+        "en": "M018: ESS Active Power (signed)"
+      },
+      "name": "Global_0_160916",
+      "schema": "double",
+      "unit": "watt"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_160920;2",
+      "@type": [
+        "Telemetry",
+        "Voltage"
+      ],
+      "displayName": {
+        "en": "M025: DC voltage on ESS"
+      },
+      "name": "Global_0_160920",
+      "schema": "double",
+      "unit": "volt"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_160922;2",
+      "@type": [
+        "Telemetry",
+        "Relativehumidity"
+      ],
+      "displayName": {
+        "en": "M027: Battery State-Of-Charge"
+      },
+      "name": "Global_0_160922",
+      "schema": "double",
+      "unit": "percent"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_160923;2",
+      "@type": [
+        "Telemetry",
+        "Relativehumidity"
+      ],
+      "displayName": {
+        "en": "M028: Battery State-Of-Health"
+      },
+      "name": "Global_0_160923",
+      "schema": "double",
+      "unit": "percent"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_160924;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "M029: Number of battery racks connected"
+      },
+      "name": "Global_0_160924",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_160931;2",
+      "@type": [
+        "Telemetry",
+        "Power"
+      ],
+      "displayName": {
+        "en": "Power wind turbines"
+      },
+      "name": "Global_0_160931",
+      "schema": "double",
+      "unit": "watt"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_160932;2",
+      "@type": [
+        "Telemetry",
+        "Power"
+      ],
+      "displayName": {
+        "en": "Power PV"
+      },
+      "name": "Global_0_160932",
+      "schema": "double",
+      "unit": "watt"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_160933;2",
+      "@type": [
+        "Telemetry",
+        "Power"
+      ],
+      "displayName": {
+        "en": "Power Genset"
+      },
+      "name": "Global_0_160933",
+      "schema": "double",
+      "unit": "watt"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_160944;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Counter balancing"
+      },
+      "name": "Global_0_160944",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_160945;2",
+      "@type": [
+        "Telemetry",
+        "Energy"
+      ],
+      "displayName": {
+        "en": "Battery energy discharged"
+      },
+      "name": "Global_0_160945",
+      "schema": "double",
+      "unit": "wattHour"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_160950;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Number of Source"
+      },
+      "name": "Global_0_160950",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_160951;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Output type"
+      },
+      "name": "Global_0_160951",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_160952;2",
+      "@type": [
+        "Telemetry",
+        "Power"
+      ],
+      "displayName": {
+        "en": "Output power"
+      },
+      "name": "Global_0_160952",
+      "schema": "double",
+      "unit": "watt"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Item_0_160953;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Type of source"
+      },
+      "name": "Item_0_160953",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Item_0_160954;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Status of the contact"
+      },
+      "name": "Item_0_160954",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Item_0_160955;2",
+      "@type": [
+        "Telemetry",
+        "Power"
+      ],
+      "displayName": {
+        "en": "Source nominal power"
+      },
+      "name": "Item_0_160955",
+      "schema": "double",
+      "unit": "watt"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Item_0_160956;2",
+      "@type": [
+        "Telemetry",
+        "Power"
+      ],
+      "displayName": {
+        "en": "Source measured power"
+      },
+      "name": "Item_0_160956",
+      "schema": "double",
+      "unit": "watt"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Item_0_160957;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Measured power is available"
+      },
+      "name": "Item_0_160957",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_160960;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Counter System in alarm"
+      },
+      "name": "Global_0_160960",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_160961;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Counter System ON"
+      },
+      "name": "Global_0_160961",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_160962;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Counter PV On"
+      },
+      "name": "Global_0_160962",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_160963;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Counter Genset On"
+      },
+      "name": "Global_0_160963",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_160964;2",
+      "@type": [
+        "Telemetry",
+        "Relativehumidity"
+      ],
+      "displayName": {
+        "en": "Deep of Discharge of batteries set "
+      },
+      "name": "Global_0_160964",
+      "schema": "double",
+      "unit": "percent"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_160965;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Counter Wind turbine on"
+      },
+      "name": "Global_0_160965",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_165000;2",
+      "@type": [
+        "Telemetry",
+        "Timespan"
+      ],
+      "displayName": {
+        "en": "Delta Counter System in alarm"
+      },
+      "name": "Global_0_165000",
+      "schema": "double",
+      "unit": "second"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_165001;2",
+      "@type": [
+        "Telemetry",
+        "Timespan"
+      ],
+      "displayName": {
+        "en": "Delta Counter System ON"
+      },
+      "name": "Global_0_165001",
+      "schema": "double",
+      "unit": "second"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_165002;2",
+      "@type": [
+        "Telemetry",
+        "Timespan"
+      ],
+      "displayName": {
+        "en": "Delta Counter PV On"
+      },
+      "name": "Global_0_165002",
+      "schema": "double",
+      "unit": "second"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_165003;2",
+      "@type": [
+        "Telemetry",
+        "Timespan"
+      ],
+      "displayName": {
+        "en": "Delta Counter Genset On"
+      },
+      "name": "Global_0_165003",
+      "schema": "double",
+      "unit": "second"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_165004;2",
+      "@type": [
+        "Telemetry",
+        "Timespan"
+      ],
+      "displayName": {
+        "en": "Delta Counter Wind Turbine On"
+      },
+      "name": "Global_0_165004",
+      "schema": "double",
+      "unit": "second"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_165005;2",
+      "@type": [
+        "Telemetry",
+        "Timespan"
+      ],
+      "displayName": {
+        "en": "Delta Counter balancing"
+      },
+      "name": "Global_0_165005",
+      "schema": "double",
+      "unit": "second"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_165006;2",
+      "@type": [
+        "Telemetry",
+        "Energy"
+      ],
+      "displayName": {
+        "en": "Delta Battery energy discharged"
+      },
+      "name": "Global_0_165006",
+      "schema": "double",
+      "unit": "wattHour"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_165010;2",
+      "@type": [
+        "Telemetry",
+        "Relativehumidity"
+      ],
+      "displayName": {
+        "en": "ESS System availability"
+      },
+      "name": "Global_0_165010",
+      "schema": "double",
+      "unit": "percent"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_165011;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Battery cycle number per day"
+      },
+      "name": "Global_0_165011",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_165012;2",
+      "@type": [
+        "Telemetry",
+        "Relativehumidity"
+      ],
+      "displayName": {
+        "en": "Battery load rate"
+      },
+      "name": "Global_0_165012",
+      "schema": "double",
+      "unit": "percent"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_400012;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Bypass load rate"
+      },
+      "name": "Global_0_400012",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_400013;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Bypass internal temperature"
+      },
+      "name": "Global_0_400013",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_400014;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Bypass rating"
+      },
+      "name": "Global_0_400014",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_400015;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Bypass internal humidity"
+      },
+      "name": "Global_0_400015",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_400016;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Bypass source 1 state"
+      },
+      "name": "Global_0_400016",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_400017;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Bypass isolated state"
+      },
+      "name": "Global_0_400017",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_400018;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Bypass source 2 state"
+      },
+      "name": "Global_0_400018",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_400101;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Switch operating factor alarm"
+      },
+      "name": "Global_0_400101",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_400102;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Switch neutral alarm"
+      },
+      "name": "Global_0_400102",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_400103;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Switch fault 1 alarm"
+      },
+      "name": "Global_0_400103",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_400104;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Switch fault 2 alarm"
+      },
+      "name": "Global_0_400104",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_400105;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Switch alarm 1 alarm"
+      },
+      "name": "Global_0_400105",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_400106;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Switch alarm 2 alarm"
+      },
+      "name": "Global_0_400106",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_400107;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Switch phase rotation 1 alarm"
+      },
+      "name": "Global_0_400107",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_400108;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Switch phase rotation 2 alarm"
+      },
+      "name": "Global_0_400108",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_400109;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Switch capa 1 alarm"
+      },
+      "name": "Global_0_400109",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_400110;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Switch capa 2 alarm"
+      },
+      "name": "Global_0_400110",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_400111;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Switch power 1 alarm"
+      },
+      "name": "Global_0_400111",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_400112;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Switch power 2 alarm"
+      },
+      "name": "Global_0_400112",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_400113;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Switch position 1 alarm"
+      },
+      "name": "Global_0_400113",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_400114;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Switch position 2 alarm"
+      },
+      "name": "Global_0_400114",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_400115;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Switch position 0 alarm"
+      },
+      "name": "Global_0_400115",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_400116;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Switch fault 0 alarm"
+      },
+      "name": "Global_0_400116",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_400117;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Switch unbalanced 1 alarm"
+      },
+      "name": "Global_0_400117",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_400118;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Switch unbalanced 2 alarm"
+      },
+      "name": "Global_0_400118",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_400119;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Switch mainfault alarm"
+      },
+      "name": "Global_0_400119",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_400120;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Switch motor fault alarm"
+      },
+      "name": "Global_0_400120",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_400121;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Switch autoconf failed alarm"
+      },
+      "name": "Global_0_400121",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_400122;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Switch unexpected transfer alarm"
+      },
+      "name": "Global_0_400122",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_400123;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Switch fail to transfer alarm"
+      },
+      "name": "Global_0_400123",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_400125;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Switch max power attempts alarm"
+      },
+      "name": "Global_0_400125",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_400126;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Switch genset failed to start alarm"
+      },
+      "name": "Global_0_400126",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_400127;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Switch external fault alarm"
+      },
+      "name": "Global_0_400127",
+      "schema": "double"
+    },
+    {
+      "@id": "dtmi:com:socomec:socomecdevice:Global_0_400128;2",
+      "@type": [
+        "Telemetry"
+      ],
+      "displayName": {
+        "en": "Switch unknown position alarm"
+      },
+      "name": "Global_0_400128",
+      "schema": "double"
+    }
+  ]
+}
